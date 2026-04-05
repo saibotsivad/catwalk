@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/saibotsivad/catwalk#readme",
 	"scripts": {
+		"how-to-publish": "npm version patch && npm run build && npm publish",
 		"build": "node ./build.js"
 	}
 }
