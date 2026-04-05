@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/saibotsivad/catwalk/issues"
 	},
-	"homepage": "https://github.com/saibotsivad/catwalk#readme"
+	"homepage": "https://github.com/saibotsivad/catwalk#readme",
+	"scripts": {
+		"build": "node ./build.js"
+	}
 }

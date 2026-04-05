@@ -4,8 +4,9 @@
 	// Prevent multiple loads, this is a singleton instance.
 	if (globalThis.Catwalk) return;
 
-	// NOTE: This value gets replaced during build.
+	// NOTE: These values get replaced during build.
 	const WORKER_CODE = '$$$TEMPLATE:worker.js$$$'
+	const VERSION = '$$$TEMPLATE:package.json:version$$$'
 
 	const MessageType = {
 		ERROR: 'error',
@@ -295,7 +296,7 @@
 
 	// --- GLOBAL ---
 	globalThis.Catwalk = {
-		version: '0.0.0',
+		version: VERSION,
 		ModelType,
 
 		// Model lifecycle
