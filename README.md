@@ -40,7 +40,7 @@ Caching the models happens in IndexedDB.
 Add it as a script to your page:
 
 ```html
-<script src="https://saibotsivad.github.io/golem/lib/catwalk.js">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@saibotsivad/catwalk"></script>
 ```
 
 Then you can use `Catwalk` as a global variable, like this:
