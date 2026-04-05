@@ -1,4 +1,8 @@
-import { AutoTokenizer, AutoModelForCausalLM, pipeline } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers'
+import {
+	AutoTokenizer,
+	AutoModelForCausalLM,
+	pipeline,
+} from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers'
 
 const models = new Map()
 

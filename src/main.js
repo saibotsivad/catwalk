@@ -1,8 +1,6 @@
 (function () {
 	'use strict'
 
-	// See ./README.md for details.
-
 	// Prevent multiple loads, this is a singleton instance.
 	if (globalThis.Catwalk) return;
 
@@ -248,8 +246,8 @@
 
 	// --- Embedding ---
 	const embed = async (modelName, text) => {
-		assertModelType(modelName, 'embeddings');
-		return sendMessage('embed', { modelName, text });
+		assertModelType(modelName, 'embeddings')
+		return sendMessage('embed', { modelName, text })
 	}
 
 	// --- INIT ---

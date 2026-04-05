@@ -1,0 +1,20 @@
+{
+	"name": "@saibotsivad/catwalk",
+	"version": "0.0.0",
+	"description": "Models run inside a Web Worker so they are non blocking.",
+	"main": "dist/main.js",
+	"browser": "dist/main.js",
+	"unpkg": "dist/main.js",
+	"jsdelivr": "dist/main.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saibotsivad/catwalk.git"
+	},
+	"author": "saibotsivad",
+	"license": "VOL",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/saibotsivad/catwalk/issues"
+	},
+	"homepage": "https://github.com/saibotsivad/catwalk#readme"
+}
