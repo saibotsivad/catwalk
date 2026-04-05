@@ -1,6 +1,6 @@
 {
 	"name": "@saibotsivad/catwalk",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Models run inside a Web Worker so they are non blocking.",
 	"main": "dist/main.js",
 	"browser": "dist/main.js",
